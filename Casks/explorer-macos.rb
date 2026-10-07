@@ -12,7 +12,7 @@ cask "explorer-macos" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Explorer.app"
   binary "#{appdir}/Explorer.app/Contents/Resources/explorermac"
