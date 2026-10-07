@@ -1,6 +1,6 @@
 cask "explorer-macos" do
-  version "1.2.0"
-  sha256 "8185773d69cc48831b9cf20c9a28bd7baaf2abe177a4508814489a2285bdba88"
+  version "1.2.1"
+  sha256 "c24c167fc9a46192877a26b73c59b71ec9c06b80d56700fc46601ff28f4dc59c"
 
   url "https://github.com/preslav-panayotov/explorer-macos/releases/download/v#{version}/Explorer-#{version}.dmg"
   name "Explorer"
